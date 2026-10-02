@@ -70,7 +70,7 @@ copia locale e il suo remoto `origin`.
 
 ## Step 1 — Hello World: quale programma ho eseguito?
 
-Prima di modificare `hello.c`, esegui `make check` dalla cartella del
+Prima di modificare `hello.c`, esegui `make hello` dalla cartella del
 repository (richiede Make e un compilatore C). Il template compila, ma non stampa nulla. 
 Completa il TODO in `hello.c` in modo che il programma stampi esattamente:
 
