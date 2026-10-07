@@ -6,11 +6,40 @@ Lavora **in locale**, sulla copia del repository assegnato clonata sul tuo compu
 
 ## Step 0 — Accettare l'esercitazione e preparare Git
 
+### Primo accesso
+
+1. Crea un account su [GitHub](https://github.com), se non ne hai già uno, e comunica il tuo username al docente per essere inserito nella classe.
+2. Accetta l'invito all'organizzazione GitHub del corso.
+3. Vai sul sito del docente ([https://www.roma1.infn.it/~rovigatl](https://www.roma1.infn.it/~rovigatl)), e da lì alla pagina del corso ([Didattica -> Laboratorio di Fisica Computazionale](https://www.roma1.infn.it/~rovigatl)).
+4. Scarica il file linkato in fondo, utilizzate il terminale per andare nella cartella dove è stato scaricato ed eseguitelo con il comando `bash LFC1_install.sh`.
+5. Chiudete e riaprite il terminale e lanciate il comando `github-inizio.sh`. **Questo comando andrà dato ogni volta che cominciate un'esercitazione**.
+6. **Nel terminale**, inserisci il tuo username GitHub, non l'email né il nome dell'utente Linux. Se viene chiesto di autenticare anche Git, rispondi `Yes`.
+7. **Prendi il codice dal terminale.** Prima di aprire il browser, `gh` mostra una riga simile a questa:
+   ```text
+   First copy your one-time code: XXXX-XXXX
+   ```
+   Copia o annota il codice effettivamente mostrato, poi premi Invio se richiesto per aprire il browser. `XXXX-XXXX` è solo un esempio del formato, non un codice da usare.
+8. **Nel browser, accedi al tuo account GitHub.** Se non sei già autenticato, inserisci le tue credenziali. **Quando GitHub chiede il codice di autenticazione a due fattori (2FA), devi inserire anche quello:** prendilo dall'app di autenticazione configurata per il tuo account, oppure dal metodo che hai impostato, per esempio SMS. Se usi una passkey o una chiave di sicurezza, segui la relativa richiesta. Se la sessione del browser è già autenticata, questo passaggio potrebbe non comparire.
+9. **Nella pagina "Device Activation" / "Authorize your device"**, inserisci il codice `XXXX-XXXX` che hai preso **dal terminale** e premi **Continue**. Controlla che "Signed in as" mostri il tuo username.
+10. Conferma l'autorizzazione a **GitHub CLI**, seguendo il pulsante mostrato nella pagina.
+11. **Torna al terminale** e attendi `Accesso GitHub pronto per ...`. Verifica il nome prima di iniziare a lavorare.
+
+I due codici non sono intercambiabili:
+
+| Codice richiesto | Dove prenderlo | Dove inserirlo |
+| --- | --- | --- |
+| Codice di autenticazione a due fattori (2FA), se richiesto | Dall'app di autenticazione o dal metodo configurato per il tuo account | Nella schermata di accesso a GitHub che richiede il codice di autenticazione |
+| Codice di autorizzazione del dispositivo, nel formato `XXXX-XXXX` | Dal terminale in cui hai avviato `github-inizio.sh` | Nella pagina "Device Activation" / "Authorize your device" |
+
+**Se il browser copre il terminale:** usa `Alt+Tab` oppure clicca la finestra del terminale nella barra in basso (per esempio `studente@labcalc: ~`). Cerca la riga `First copy your one-time code`, copia il codice e torna al browser. Non chiudere il terminale e non avviare una seconda procedura mentre la prima è in attesa.
+
+**Se il codice del dispositivo è scaduto o la procedura è fallita:** torna al terminale, interrompi l'eventuale attesa con `Ctrl+C` e riesegui `github-inizio.sh`. Usa il nuovo codice mostrato; quello precedente non va riutilizzato.
+
+**Se il browser usa l'account di un altro studente:** esci da quell'account e accedi con il tuo prima di autorizzare. Lo script verifica lo username inserito e, se non corrisponde, rifiuta l'accesso e tenta la pulizia.
+
 ### Dal browser al repository personale
 
-1. Crea un account su [GitHub](https://github.com), se non ne hai già uno,    e comunica il tuo username al docente per essere inserito nella classe.
-2. Accetta l'invito all'organizzazione GitHub del corso.
-3. Apri il link dell'esercitazione fornito dal docente e accedi a    [Classroom 50](https://classroom50.org) con **Sign in with GitHub**.
+3. Apri il link dell'esercitazione fornito dal docente e accedi a [Classroom 50](https://classroom50.org) con **Sign in with GitHub**.
 4. Premi **Accept assignment** e attendi la creazione del tuo repository. Poi scegli **Open repository** per aprirlo su GitHub.
 5. Nel tuo repository, apri **Code**, seleziona **HTTPS** e copia l'URL.
 
