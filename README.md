@@ -53,11 +53,11 @@ Da un terminale, nella cartella in cui vuoi raccogliere le esercitazioni, esegui
 
 ```sh
 git clone URL_COPIATO
-cd esercitazione-0
+cd CARTELLA_CLONATA
 git remote -v
 ```
 
-`clone` scarica il repository e la sua cronologia. `origin` è il nome con cui Git identifica il repository remoto: verifica che l'URL mostrato corrisponda al tuo repository nell'organizzazione del corso.
+`clone` scarica il repository e la sua cronologia, creando una nuova cartella che ha come nome quello del repository originale e che quindi varia da gruppo a gruppo (ad esempio, `laboratorio-di-fisica-computazionale-1-esercitazione-0-group-8`). `origin` è il nome con cui Git identifica il repository remoto: verifica che l'URL mostrato dal comando `git remote -v` corrisponda al tuo repository nell'organizzazione del corso.
 
 Configura il nome e l'email da associare ai commit di questa copia, sostituendo i valori di esempio con i tuoi:
 
@@ -66,7 +66,7 @@ git config user.name "Nome Cognome"
 git config user.email "email-associata-a-GitHub"
 ```
 
-Questi dati identificano l'autore dei commit; non sono credenziali di accesso. Esegui i comandi Git dalla cartella `esercitazione-0`, sul branch predefinito che trovi dopo il clone.
+Questi dati identificano l'autore dei commit; non sono credenziali di accesso. Mi raccomando, esegui i comandi Git sono all'interno del repository!
 
 Già che ci siamo, configura emacs come editor di default di git
 
