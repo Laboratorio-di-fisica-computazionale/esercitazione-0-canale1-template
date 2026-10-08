@@ -8,6 +8,8 @@ Lavora **in locale**, sulla copia del repository assegnato clonata sul tuo compu
 
 ### Primo accesso
 
+**Nota Bene:** provate a dare il comando `github-inizio.sh` da terminale: se non dà errore e vi chiede l'username potete procedere direttamente al punto 6.
+
 1. Crea un account su [GitHub](https://github.com), se non ne hai già uno, e comunica il tuo username al docente per essere inserito nella classe.
 2. Accetta l'invito all'organizzazione GitHub del corso.
 3. Vai sul sito del docente ([https://www.roma1.infn.it/~rovigatl](https://www.roma1.infn.it/~rovigatl)), e da lì alla pagina del corso ([Didattica -> Laboratorio di Fisica Computazionale](https://www.roma1.infn.it/~rovigatl)).
