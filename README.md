@@ -12,7 +12,7 @@ Lavora **in locale**, sulla copia del repository assegnato clonata sul tuo compu
 2. Accetta l'invito all'organizzazione GitHub del corso.
 3. Vai sul sito del docente ([https://www.roma1.infn.it/~rovigatl](https://www.roma1.infn.it/~rovigatl)), e da lì alla pagina del corso ([Didattica -> Laboratorio di Fisica Computazionale](https://www.roma1.infn.it/~rovigatl)).
 4. Scarica il file linkato in fondo, utilizzate il terminale per andare nella cartella dove è stato scaricato ed eseguitelo con il comando `bash LFC1_install.sh`.
-5. Chiudete e riaprite il terminale e lanciate il comando `github-inizio.sh`. **Questo comando andrà dato ogni volta che cominciate un'esercitazione**.
+5. Chiudi e riapri il terminale (o apri un'altra tab) e lancia il comando `github-inizio.sh`. **Questo comando andrà dato ogni volta che cominciate un'esercitazione**.
 6. **Nel terminale**, inserisci il tuo username GitHub, non l'email né il nome dell'utente Linux. Se viene chiesto di autenticare anche Git, rispondi `Yes`.
 7. **Prendi il codice dal terminale.** Prima di aprire il browser, `gh` mostra una riga simile a questa:
    ```text
