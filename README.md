@@ -24,7 +24,7 @@ Lavora **in locale**, sulla copia del repository assegnato clonata sul tuo compu
 8. **Nel browser, accedi al tuo account GitHub.** Se non sei già autenticato, inserisci le tue credenziali. **Quando GitHub chiede il codice di autenticazione a due fattori (2FA), devi inserire anche quello:** prendilo dall'app di autenticazione configurata per il tuo account, oppure dal metodo che hai impostato, per esempio SMS. Se usi una passkey o una chiave di sicurezza, segui la relativa richiesta. Se la sessione del browser è già autenticata, questo passaggio potrebbe non comparire.
 9. **Nella pagina "Device Activation" / "Authorize your device"**, inserisci il codice `XXXX-XXXX` che hai preso **dal terminale** e premi **Continue**. Controlla che "Signed in as" mostri il tuo username.
 10. Conferma l'autorizzazione a **GitHub CLI**, seguendo il pulsante mostrato nella pagina.
-11. **Torna al terminale** e attendi `Accesso GitHub pronto per ...`. Verifica il nome prima di iniziare a lavorare.
+11. **Torna al terminale** e attendi `Accesso GitHub pronto per ...`. Verifica il nome prima di iniziare a lavorare. Se nonostante sul browser la procedura abbia avuto successo sul terminale non torna il prompt, chiudete tutte le finestre del browser, *riapritene una dal menu* e poi ripetete la procedura con `github-inizio.sh`.
 
 I due codici non sono intercambiabili:
 
