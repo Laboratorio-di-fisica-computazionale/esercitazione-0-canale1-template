@@ -68,19 +68,13 @@ git config user.email "email-associata-a-GitHub"
 
 Questi dati identificano l'autore dei commit; non sono credenziali di accesso. Mi raccomando, esegui i comandi Git sono all'interno del repository!
 
-Già che ci siamo, configura emacs come editor di default di git
-
-```sh
-git config --global core.editor "emacs"
-```
-
-o, ancora meglio, emacs da terminale:
+Già che ci siamo, configura emacs da terminale come editor di default di git
 
 ```sh
 git config --global core.editor "emacs -nw"
 ```
 
-**Nota Bene:** per salvare e uscire con emacs potete usare la combinazione Ctrl+X Ctrl+S, seguita da Ctrl+X Ctrl+C.
+**Nota Bene:** per salvare e uscire con emacs usate la combinazione Ctrl+X Ctrl+S, seguita da Ctrl+X Ctrl+C.
 
 **Checkpoint:** sai aprire il tuo repository su GitHub e riconoscere la copia locale e il suo remoto `origin`.
 
