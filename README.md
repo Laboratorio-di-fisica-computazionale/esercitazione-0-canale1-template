@@ -145,9 +145,7 @@ git log --oneline -5
 
 Riapri il file locale e individua il nuovo commit nella cronologia. `git pull` riceve i nuovi commit dal remoto e aggiorna la copia locale. Perché non è necessario eseguire di nuovo `git clone`? Annota la risposta in `osservazioni.md` e includila nel prossimo commit.
 
-**Checkpoint:** sai compilare, eseguire e spiegare quale versione del programma hai provato e registrato su GitHub. Discuti una tua prova con il docente, poi passa allo [step 2 — Eco degli argomenti](step-2.md), nello stesso repository.
-
-Nello step 2, oltre alle prove proposte, individua `argc` e `argv` in `eco.c`: perché il programma richiede `argc == 4` pur ricevendo tre argomenti? Che cosa contiene `argv[0]`? Annota le risposte in `osservazioni.md`.
+**Checkpoint:** sai compilare, eseguire e spiegare quale versione del programma hai provato e registrato su GitHub.
 
 ## Consegna finale
 
